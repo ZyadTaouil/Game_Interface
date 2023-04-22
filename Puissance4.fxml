@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LeController">
+   <children>
+      <Pane prefHeight="636.0" prefWidth="865.0" style="-fx-background-color: #101324;">
+         <children>
+            <Pane layoutX="167.0" layoutY="118.0" prefHeight="406.0" prefWidth="520.0" />
+            <Pane layoutX="174.0" layoutY="125.0" prefHeight="394.0" prefWidth="507.0" style="-fx-background-color: #002B73; -fx-background-radius: 50;">
+               <children>
+                  <Pane layoutY="-100.0" prefHeight="95.0" prefWidth="507.0">
+                     <children>
+                        <ImageView fitHeight="113.0" fitWidth="520.0" layoutX="-6.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@./images/P4.png" />
+                           </image>
+                        </ImageView>
+                        <Label fx:id="tour" alignment="CENTER" contentDisplay="CENTER" layoutX="-25.0" layoutY="70.0" prefHeight="21.0" prefWidth="557.0" textFill="#e5ff00">
+                           <font>
+                              <Font size="9.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </children>
+            </Pane>
+            <GridPane layoutX="186.0" layoutY="140.0" prefHeight="345.0" prefWidth="755.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="60.0" prefWidth="60.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="60.0" minWidth="10.0" prefWidth="60.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Button fx:id="B00" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: Transparent;">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B01" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: Transparent;" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B02" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: Transparent;" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B03" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: transparent;" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="BO4" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: transparent;" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B05" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: transparent;" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B06" mnemonicParsing="false" onAction="#loca1" style="-fx-background-color: transparent;" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B10" mnemonicParsing="false" onAction="#loca2" prefHeight="62.0" prefWidth="0.0" style="-fx-background-color: transparent;" GridPane.columnIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B11" mnemonicParsing="false" onAction="#loca2" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B12" mnemonicParsing="false" onAction="#loca2" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B13" mnemonicParsing="false" onAction="#loca2" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B14" mnemonicParsing="false" onAction="#loca2" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B15" mnemonicParsing="false" onAction="#loca2" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B16" mnemonicParsing="false" onAction="#loca2" style="-fx-background-color: transparent;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B20" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B21" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B22" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B23" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B24" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B25" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B26" mnemonicParsing="false" onAction="#loca3" style="-fx-background-color: transparent;" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B30" mnemonicParsing="false" onAction="#loca4" prefHeight="49.0" prefWidth="53.0" style="-fx-background-color: transparent;" GridPane.columnIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B31" mnemonicParsing="false" onAction="#loca4" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B32" mnemonicParsing="false" onAction="#loca4" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B33" mnemonicParsing="false" onAction="#loca4" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B34" mnemonicParsing="false" onAction="#loca4" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B35" mnemonicParsing="false" onAction="#loca4" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B36" mnemonicParsing="false" onAction="#loca4" style="-fx-background-color: transparent;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B40" mnemonicParsing="false" onAction="#loca5" prefHeight="41.0" prefWidth="55.0" style="-fx-background-color: transparent;" GridPane.columnIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B41" mnemonicParsing="false" onAction="#loca5" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B42" mnemonicParsing="false" onAction="#loca5" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B43" mnemonicParsing="false" onAction="#loca5" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B44" mnemonicParsing="false" onAction="#loca5" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B45" mnemonicParsing="false" onAction="#loca5" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B46" mnemonicParsing="false" onAction="#loca5" style="-fx-background-color: transparent;" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B50" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B51" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B52" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B53" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B54" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B55" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B56" mnemonicParsing="false" onAction="#loca6" style="-fx-background-color: transparent;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B60" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B61" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B62" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B63" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B64" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B65" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B66" mnemonicParsing="false" onAction="#loca7" style="-fx-background-color: transparent;" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B70" mnemonicParsing="false" onAction="#loca8" style="-fx-background-color: transparent;" GridPane.columnIndex="7">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B71" mnemonicParsing="false" onAction="#loca8" style="-fx-background-color: transparent;" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B72" mnemonicParsing="false" onAction="#loca8" style="-fx-background-color: transparent;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B73" mnemonicParsing="false" onAction="#loca8" prefHeight="67.0" prefWidth="60.0" style="-fx-background-color: transparent;" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B74" mnemonicParsing="false" onAction="#loca8" style="-fx-background-color: transparent;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B75" mnemonicParsing="false" onAction="#loca8" style="-fx-background-color: transparent;" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+                  <Button fx:id="B76" mnemonicParsing="false" onAction="#loca8" style="-fx-background-color: transparent;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <cursor>
+                        <Cursor fx:constant="CROSSHAIR" />
+                     </cursor></Button>
+               </children>
+            </GridPane>
+            <Label fx:id="msgVictoire" alignment="CENTER" layoutY="558.0" prefHeight="69.0" prefWidth="865.0" style="-fx-text-alignment: center;" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnStart" layoutX="349.0" layoutY="527.0" mnemonicParsing="false" onAction="#commencer" prefHeight="31.0" prefWidth="168.0" style="-fx-background-radius: 50;" text="Commencer la partie">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="backk" layoutX="28.0" layoutY="14.0" mnemonicParsing="false" onAction="#backer" prefHeight="69.0" prefWidth="76.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fitHeight="81.0" fitWidth="99.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@images/retour.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+           
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

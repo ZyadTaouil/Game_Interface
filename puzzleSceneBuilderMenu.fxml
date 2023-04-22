@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerMenu">
+   <children>
+      <Pane prefHeight="770.0" prefWidth="1000.0" style="-fx-background-color: E1EDED; -fx-border-width: none;">
+         <children>
+            <Pane fx:id="level1" layoutX="34.0" layoutY="29.0" prefHeight="713.0" prefWidth="711.0" style="-fx-background-color: white; -fx-background-radius: 10; -fx-border-radius: 10; -fx-border-color: white;">
+               <effect>
+                  <DropShadow color="#807d7d" />
+               </effect>
+               <children>
+                  <ImageView fitHeight="589.0" fitWidth="683.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imagesPuzzle/Menu.png" />
+                     </image>
+                  </ImageView>
+                  <Text layoutX="58.0" layoutY="634.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Puzzle Game!" textAlignment="CENTER">
+                     <font>
+                        <Font name="Gill Sans Ultra Bold" size="72.0" />
+                     </font>
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#f4f151" />
+                              <Stop color="#c96a5d" offset="0.5368592908585799" />
+                              <Stop color="#46a5c3" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Text>
+                  <Text layoutX="478.0" layoutY="680.0" strokeType="OUTSIDE" strokeWidth="0.0" text="By Maya Douadi" textAlignment="CENTER">
+                     <font>
+                        <Font name="Eras Medium ITC" size="24.0" />
+                     </font>
+                     <fill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#f4f151" />
+                              <Stop color="#c96a5d" offset="0.5368592908585799" />
+                              <Stop color="#46a5c3" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </fill>
+                  </Text>
+               </children>
+            </Pane>
+            <Button fx:id="buttonLevel1" layoutX="779.0" layoutY="29.0" mnemonicParsing="false" onMouseClicked="#clickOnLevel1" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10;" text="Level 1" textFill="#1fb299">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="#48d030" radius="24.495" width="78.98" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonLevel2" layoutX="779.0" layoutY="115.0" mnemonicParsing="false" onMouseClicked="#clickOnLevel2" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10;" text="Level 2" textFill="#1fb299">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="#decc14" height="71.73" radius="37.1775" width="78.98" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonLevel3" layoutX="779.0" layoutY="201.0" mnemonicParsing="false" onMouseClicked="#clickOnLevel3" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10;" text="Level 3" textFill="#1fb299">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+               <effect>
+                  <InnerShadow color="#f41212" radius="24.495" width="78.98" />
+               </effect>
+            </Button>
+            <Button fx:id="buttonRetour" layoutX="779.0" layoutY="686.0" mnemonicParsing="false" onAction="#faireRetour" onMouseClicked="#clickOnLevel3" prefHeight="30.0" prefWidth="186.0" style="-fx-background-color: red; -fx-border-radius: 10; -fx-background-radius: 10;" text="Retour" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+               <effect>
+                  <InnerShadow height="49.99" radius="31.7425" width="78.98" />
+               </effect>
+            </Button>
+         </children>
+         <effect>
+            <DropShadow color="#222222" />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>

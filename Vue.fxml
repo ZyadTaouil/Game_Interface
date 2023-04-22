@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1354.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Desktop/imagesJeu/Projet_JAVA.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="pquatre" layoutX="218.0" layoutY="360.0" mnemonicParsing="false" onAction="#puissance" prefHeight="135.0" prefWidth="387.0" style="-fx-background-color: Transparent;">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="354.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/imagesJeu/power4.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="pendu" layoutX="218.0" layoutY="540.0" mnemonicParsing="false" onAction="#lancerPendu" prefHeight="135.0" prefWidth="387.0" style="-fx-background-color: Transparent;">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="354.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/imagesJeu/LePendu.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="puzzle" layoutX="717.0" layoutY="360.0" mnemonicParsing="false" onAction="#lancerPuzzle" prefHeight="135.0" prefWidth="387.0" style="-fx-background-color: Transparent;">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="354.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/imagesJeu/puzzleGang.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="leave" layoutX="717.0" layoutY="540.0" mnemonicParsing="false" onAction="#quitterProgramme" prefHeight="135.0" prefWidth="387.0" style="-fx-background-color: Transparent;">
+         <graphic>
+            <ImageView fitHeight="151.0" fitWidth="354.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/imagesJeu/QuitterJeu.png" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+      <Button fx:id="options" layoutX="31.0" layoutY="30.0" mnemonicParsing="false" onAction="#lanceOptions" prefHeight="106.0" prefWidth="132.0" style="-fx-background-color: Transparent;">
+         <graphic>
+            <ImageView fitHeight="107.0" fitWidth="102.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../Desktop/imagesJeu/parametres.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>
